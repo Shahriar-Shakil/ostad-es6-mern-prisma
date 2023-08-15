@@ -1,0 +1,39 @@
+/* BlogPage.module.css */
+
+/* Main Content */
+.mainContainer {
+  padding: 20px;
+}
+
+/* Blog Cards Grid */
+.blogGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  /* Apply full width columns on mobile */
+  .blogGrid {
+    grid-template-columns: 100%;
+  }
+}
+/* Blog Card */
+.blogCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.blogCard:hover {
+  transform: translateY(-5px);
+}
+
+.blogCard h2 {
+  margin-top: 0;
+}
+
+.blogCard p {
+  margin: 10px 0;
+  color: #666;
+}

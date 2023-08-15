@@ -1,0 +1,17 @@
+/* Banner */
+.banner {
+  background-color: #f5f5f5;
+  padding: 40px;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}

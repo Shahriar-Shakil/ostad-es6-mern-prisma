@@ -1,0 +1,36 @@
+/* Navbar module */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #ff9900, #ff3366);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ff9900;
+}
