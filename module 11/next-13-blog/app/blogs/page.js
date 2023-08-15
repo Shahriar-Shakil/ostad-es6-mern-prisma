@@ -1,18 +1,24 @@
 import React from "react";
 import styles from "./page.module.css";
 import getBlogs from "@/lib/getBlogs";
+import Link from "next/link";
 
 export default async function Blogs() {
   const blogData = await getBlogs();
-  console.log(blogData, "ddd");
   return (
     <div className={styles.mainContainer}>
       <div className={styles.blogGrid}>
         {blogData.posts.map((blog) => (
-          <div key={blog.id} className={styles.blogCard}>
-            <h2>{blog.title}</h2>
-            <p>In this post, we'll explore the basics of cooking...</p>
-          </div>
+          <Link
+            className={styles.blogCard}
+            key={blog.id}
+            href={`/blogs/${blog.id}`}
+          >
+            <div>
+              <h2>{blog.title}</h2>
+              <p className={styles.textTruncate}>{blog.content}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

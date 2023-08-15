@@ -23,8 +23,15 @@
   border: 1px solid #ddd;
   padding: 20px;
   transition: transform 0.3s ease;
+  text-decoration: none;
 }
-
+.textTruncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .blogCard:hover {
   transform: translateY(-5px);
 }

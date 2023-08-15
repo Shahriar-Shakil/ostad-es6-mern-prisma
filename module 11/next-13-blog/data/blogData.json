@@ -1,18 +1,21 @@
 {
   "posts": [
     {
-      "title": "Getting Started with Cooking",
+      "id": 1,
+      "title": "Getting Started with Cooking Update",
       "author": "Jane Doe",
       "date": "2023-08-15",
       "content": "In this post, we'll explore the basics of cooking, from chopping vegetables to sautéing your first dish. Cooking can be both fun and rewarding, and with a few essential tips, you'll be on your way to creating delicious meals in no time!"
     },
     {
+      "id": 1,
       "title": "Hiking Adventures in the Mountains",
       "author": "John Smith",
       "date": "2023-08-14",
       "content": "Embarking on a journey through the picturesque mountains was an unforgettable experience. The crisp air, breathtaking views, and the sense of accomplishment at the summit made it all worth it. This post is a recount of my recent hiking adventure and the lessons I learned along the way."
     },
     {
+      "id": 1,
       "title": "Exploring Uncharted Waters",
       "author": "Emily Williams",
       "date": "2023-08-13",

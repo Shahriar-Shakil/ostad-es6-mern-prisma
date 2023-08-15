@@ -1,0 +1,40 @@
+/* SingleBlogPage.module.css */
+
+/* Main Container */
+.mainContainer {
+  padding: 20px;
+}
+
+/* Blog Post */
+.blogPost {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Author and Date */
+.info {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.date {
+  font-style: italic;
+}
+
+/* Content */
+.content {
+  line-height: 1.6;
+}

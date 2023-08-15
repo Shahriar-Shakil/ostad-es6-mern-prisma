@@ -1,5 +1,7 @@
 export default async function getBlogs() {
-  const res = await fetch("http://localhost:3000/blogs/api");
+  const res = await fetch("http://localhost:3000/blogs/api", {
+    cache: "no-cache",
+  });
 
   if (!res.ok) {
     throw new Error("error fetching Posts");
